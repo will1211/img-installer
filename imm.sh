@@ -8,7 +8,7 @@ FILE_NAME="immortalwrt-24.10.4-x86-generic-generic-squashfs-combined-efi.img.gz"
 OUTPUT_PATH="imm/immortalwrt.img.gz"
 
 # DOWNLOAD_URL=$(curl -s https://api.github.com/repos/$REPO/releases/tags/$TAG | jq -r '.assets[] | select(.name == "'"$FILE_NAME"'") | .browser_download_url')
-DOWNLOAD_URL="https://immortalwrt.kyarucloud.moe/releases/24.10.4/targets/x86/generic/immortalwrt-24.10.4-x86-generic-generic-squashfs-combined-efi.img.gz"
+DOWNLOAD_URL="https://github.com/will1211/img-installer/raw/refs/heads/master/immortalwrt-24.10.4-x86-generic-generic-squashfs-combined-efi.img.gz"
 
 # 此处可以替换op固件下载地址,但必须是 直链才可以,网盘那种地址是不行滴。举3个例子
 # 原版OpenWrt
